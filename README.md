@@ -9,6 +9,7 @@ The pipeline reads BTC price data, computes a rolling mean over the close prices
 All parameters (seed, window, version) are driven from `config.yaml` so nothing is hardcoded in the script.
 
 ## Project structure
+```
 mlops-task/
 ├── data.csv          # BTC OHLCV data (10,000 rows, 1-min candles)
 ├── config.yaml       # pipeline parameters
@@ -17,7 +18,7 @@ mlops-task/
 ├── Dockerfile        # containerized setup
 ├── metrics.json      # sample output (generated on run)
 └── run.log           # sample logs (generated on run)
-
+```
 ## Running locally
 
 Make sure you have Python 3.9+ and install dependencies:
