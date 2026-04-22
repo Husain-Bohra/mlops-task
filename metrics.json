@@ -1,0 +1,5 @@
+{
+  "version": "unknown",
+  "status": "error",
+  "error": "Data file not found: fake.csv"
+}
